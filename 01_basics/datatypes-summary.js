@@ -40,3 +40,25 @@ let muObj
 
 
  // https://262.ecma-international.org//5.1/#sec-11.4.3
+
+ //==++++++++++++++++++++++++++++++++++++++++++++++++
+
+ /// Stack (Primitive), Heap(Non-Primitive)
+
+ let myYoutubename ="abhaymaurya"
+
+ let anothername = "chaiaurcode";
+
+ console.log(myYoutubename);
+ console.log(anothername);
+
+ let userOne ={
+   email:"abhay@gamail.com",
+   upi: "abhay@yb"
+
+ }
+ let userTwo = userOne
+ userTwo.email ="hitesh@google.com"
+
+ console.log(userOne.email);
+ console.log(userTwo.email)
